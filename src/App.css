@@ -1,0 +1,59 @@
+.container {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+.title{
+  background-color: #00796b;
+  color: white;
+ display: flex;
+ align-items: center;
+ justify-content: start;
+ padding-left: 20px;
+}
+.boxButton {
+  background-color: #00796b;
+  color: white;
+ display: flex;
+ align-items: center;
+ justify-content: end;
+ padding-right: 20px;
+}
+.text-right{
+  display: flex;
+  justify-content: end;
+  text-align: right;
+  padding-right: 1rem;
+  margin-bottom: 2rem;
+}
+.MuiFormHelperText-root{
+  text-align: right !important;
+}
+
+h5.owner{
+  font-size: 18px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.onwer-doc{
+  font-size: 10px;
+  margin: 0px !important;
+  font-weight: 400;
+  margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
+}
+.top-bar{
+  width: 100%;
+  background-color: transparent;
+  height: 200px;
+ position: relative;
+}
